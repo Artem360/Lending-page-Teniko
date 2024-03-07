@@ -1,0 +1,91 @@
+body {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #E0E1DD;
+}
+
+.header {
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin: 2% 5% 0% 5%;
+  justify-content: space-between;
+}
+.header .navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header .navContainer .navElement {
+  padding: 10px;
+  font-weight: 500;
+  list-style-type: none;
+}
+.header .logo {
+  margin: auto 0px auto 0px;
+  float: left;
+}
+.header .logo img {
+  width: 155px;
+  height: 55px;
+  float: left;
+}
+
+.mainContentContainer {
+  width: 90%;
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin: 0% 5% 0% 5%;
+}
+.mainContentContainer .firstFrame {
+  width: 100%;
+}
+.mainContentContainer .content {
+  color: #0D1B2A;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+  margin: 10% 23% 30% 23%;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainContentContainer .content .title {
+  font-weight: 600px;
+  font-size: 40px;
+  text-align: center;
+  padding: 2px 4px;
+}
+.mainContentContainer .content .supTitle {
+  font-weight: 400px;
+  font-size: 24px;
+  padding: 2px 4px;
+}
+.mainContentContainer .content button:hover {
+  background-color: #E0E1DD;
+  color: #0D1B2A;
+  transition: 0.3s;
+}
+.mainContentContainer .content button {
+  background: #0D1B2A;
+  color: #E0E1DD;
+  font-weight: 600px;
+  border-radius: 40px;
+  border-color: #040507;
+  height: 68px;
+  margin: 0px 15px;
+  font-size: 18px;
+}
+.mainContentContainer .content .firstFrameBtn1 {
+  width: 214px;
+}
+.mainContentContainer .content .firstFrameBtn2 {
+  width: 156px;
+}
+.mainContentContainer .backgroundImg {
+  position: relative;
+}
